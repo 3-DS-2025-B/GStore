@@ -38,4 +38,6 @@ public class Produto
     [Required(ErrorMessage = "Por favor, informe o valor de venda")]
     [Column(TypeName = "decimal(10,2)")]
     public decimal ValorVenda { get; set; }
+
+    public bool Destaque { get; set; } = false;
 }
