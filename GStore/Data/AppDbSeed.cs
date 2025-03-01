@@ -1,7 +1,8 @@
+using GStore.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace GStore.Models;
+namespace GStore.Data;
 
 public class AppDbSeed
 {
