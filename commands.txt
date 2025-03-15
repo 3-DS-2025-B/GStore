@@ -41,3 +41,4 @@ dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 9.
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 9.0.1
 
 dotnet aspnet-codegenerator controller -name CategoriasController --model Categoria --dataContext AppDbContext --layout "~/Views/Shared/_LayoutAdmin.cshtml" -outDir Controllers
+dotnet aspnet-codegenerator controller -name ProdutosController --model Produto --dataContext AppDbContext --layout "~/Views/Shared/_LayoutAdmin.cshtml" -outDir Controllers
